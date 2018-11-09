@@ -92,7 +92,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonsub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajl-et-1wp"/>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1As-On-EaB"/>
+                                    <action selector="buttonsub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qu6-Ao-rDl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2e-KT-XdX">
