@@ -66,6 +66,7 @@ class ViewController: UIViewController {
             temp = Double(result.text!)!
             result.text = ""
         
+        
     
     }
     
@@ -73,6 +74,7 @@ class ViewController: UIViewController {
         operatorFlag = 2
         temp = Double(result.text!)!
         result.text = ""
+       
     
     }
     
@@ -80,7 +82,7 @@ class ViewController: UIViewController {
         operatorFlag = 3
         temp = Double(result.text!)!
         result.text = ""
-        
+       
         
     }
     
@@ -88,9 +90,7 @@ class ViewController: UIViewController {
         operatorFlag = 4
         temp = Double(result.text!)!
         result.text = ""
-        
-        
-        
+       
         
     }
     
