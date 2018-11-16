@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     var temp:Double = 0
     var operatorFlag = 0
+    var performOperation = 0
 
     @IBOutlet var result: UITextField!
     
@@ -63,8 +64,9 @@ class ViewController: UIViewController {
     
     @IBAction func buttonadd(_ sender: Any) {
         operatorFlag = 1
-            temp = Double(result.text!)!
+            temp = temp+Double(result.text!)!
             result.text = ""
+        
         
         
     
@@ -72,7 +74,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonsub(_ sender: Any) {
         operatorFlag = 2
-        temp = Double(result.text!)!
+        temp = temp+Double(result.text!)!
         result.text = ""
        
     
@@ -80,7 +82,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonmul(_ sender: Any) {
         operatorFlag = 3
-        temp = Double(result.text!)!
+        temp = temp+Double(result.text!)!
         result.text = ""
        
         
@@ -88,7 +90,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttondiv(_ sender: Any) {
         operatorFlag = 4
-        temp = Double(result.text!)!
+        temp = temp+Double(result.text!)!
         result.text = ""
        
         
@@ -97,8 +99,33 @@ class ViewController: UIViewController {
     
     @IBAction func buttonAC(_ sender: Any) {
         result.text = ""
+        temp=0
     }
     
+    /*@IBAction func buttonResult1(_ sender: Any) {
+        if operatorFlag == 1
+        {
+            temp = temp + Double(result.text!)!
+            result.text = ""
+        }
+        if operatorFlag == 2
+        {
+            temp = temp - Double(result.text!)!
+            result.text = "\(temp)"
+        }
+        if operatorFlag == 3
+        {
+            temp = temp * Double(result.text!)!
+            result.text = "\(temp)"
+        }
+        if operatorFlag == 4
+        {
+            temp = temp / Double(result.text!)!
+            result.text = "\(temp)"
+            temp=0
+        }
+        
+    }*/
     @IBAction func buttonResult(_ sender: Any) {
         if operatorFlag == 1
         {
