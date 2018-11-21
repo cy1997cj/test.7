@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         operatorFlag = 1
             temp = temp+Double(result.text!)!
             result.text = ""
-        
+ 
         
         
     
