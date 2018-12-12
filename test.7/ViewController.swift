@@ -62,11 +62,18 @@ class ViewController: UIViewController {
     }
     
     
+    /*@IBAction func buttonone(_ sender: Any) {
+        result.text = result.text! + "("
+    }
+    
+    @IBAction func buttontwo(_ sender: Any) {
+        result.text = result.text! + ")"
+    }*/
     
     @IBAction func buttonadd(_ sender: Any) {
         operatorFlag = 1
             temp = temp+Double(result.text!)!
-            result.text = ""
+            result.text = "+"
  
     }
     
@@ -86,7 +93,7 @@ class ViewController: UIViewController {
     @IBAction func buttonmul(_ sender: Any) {
         operatorFlag = 3
         temp1 = temp1*Double(result.text!)!
-        result.text = ""
+        result.text = "*"
        
     }
     
