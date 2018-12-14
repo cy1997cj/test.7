@@ -93,7 +93,7 @@ class ViewController: UIViewController {
     @IBAction func buttonmul(_ sender: Any) {
         operatorFlag = 3
         temp1 = temp1*Double(result.text!)!
-        result.text = "*"
+        result.text = ""
        
     }
     
