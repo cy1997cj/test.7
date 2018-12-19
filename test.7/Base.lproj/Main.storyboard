@@ -200,19 +200,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g24-uZ-lRA">
                                 <rect key="frame" x="90" y="457" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="（"/>
                                 <connections>
                                     <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KCp-K9-fDQ"/>
                                     <action selector="buttonone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d6o-AC-6oA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFX-C5-QP3">
-                                <rect key="frame" x="189" y="457" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="）"/>
-                                <connections>
-                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bGw-jN-Pem"/>
-                                    <action selector="buttontwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kaf-Ov-yEy"/>
                                 </connections>
                             </button>
                         </subviews>

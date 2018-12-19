@@ -62,13 +62,7 @@ class ViewController: UIViewController {
     }
     
     
-    /*@IBAction func buttonone(_ sender: Any) {
-        result.text = result.text! + "("
-    }
     
-    @IBAction func buttontwo(_ sender: Any) {
-        result.text = result.text! + ")"
-    }*/
     
     @IBAction func buttonadd(_ sender: Any) {
         operatorFlag = 1
@@ -147,9 +141,10 @@ class ViewController: UIViewController {
         {
             temp = temp / Double(result.text!)!
             result.text = "\(temp)"
+            temp1=0
         }
         
-        temp=0
+        temp=1
     }
     
     override func viewDidLoad() {
