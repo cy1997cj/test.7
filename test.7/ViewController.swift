@@ -93,6 +93,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttondiv(_ sender: Any) {
         operatorFlag = 4
+
         if(temp==0){
             temp1 = Double(result.text!)!
             temp = 1
